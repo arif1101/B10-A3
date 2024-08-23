@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind link -->
+    <title>Document</title>
+    <!-- daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/f937db5df5.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d',
+                'btn-clr': '#FF4240',
+                'arrow_btn': 'rgb(171, 239, 95);',
+                'bg_clr': 'rgb(255, 255, 255);',
+                'text_clr': 'rgb(115, 115, 115);',
+                'title_text': 'rgb(33, 33, 33);',
+            }
+            },
+        }
+        }
+    </script>
+
+    
+</head>
+<body class="font-manrope ">
+    <header class="w-full bg-gradient-to-t from-bg_clr to-stone-200">
+        <nav class="max-w-[335px] md:max-w-[1170px] mx-auto flex justify-between mb-14">
+            <div class="flex gap-1 items-center">
+                <i class="fa-solid fa-arrow-trend-up bg-arrow_btn p-1 rounded-full"></i>
+                <h1 class="text-title_text text-xl font-bold tracking-tighter md:text-3xl">Rinterio</h1>
+            </div>
+            <i class="fa-solid fa-bars flexn my-auto p-1 mr-1 bg-bg_clr rounded-full text-text_clr md:hidden"></i>
+            <div class="hidden gap-9 items-center md:flex">
+                <p class="text-title_text font-bold">Home</p>
+                <p class="text-text_clr"> Services</p>
+                <p class="text-text_clr">Portfolio</p>
+                <p class="text-text_clr">Blogs</p>
+                <p class="text-text_clr">Contact Us</p>
+            </div>
+            <div class="hidden gap-3 items-center md:flex">
+                <i class="fa-solid fa-magnifying-glass p-3  bg-bg_clr rounded-full text-text_clr"></i>
+                <i class="fa-solid fa-cart-shopping p-3  bg-bg_clr rounded-full text-text_clr"></i>
+                <div class="flex gap-1 items-center bg-arrow_btn py-3 px-5 rounded-full">
+                    <h1 class="text-title_text text-sm font-bold">Book Consult</h1>
+                    <i class="fa-solid fa-arrow-trend-up bg-black text-white p-1 rounded-full"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero section start -->
+     
+    
+</body>
+</html>
