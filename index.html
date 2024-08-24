@@ -34,6 +34,11 @@
                 'bg_clr': 'rgb(255, 255, 255);',
                 'text_clr': 'rgb(115, 115, 115);',
                 'title_text': 'rgb(33, 33, 33);',
+                'btn': 'rgba(171, 239, 95, 0.5)',
+                'concept_card': 'rgb(231, 193, 211);',
+                'design_card': 'rgb(239, 218, 110);',
+                'supervision_card': 'rgb(164, 218, 195)',
+                'budget_card': 'rgb(119, 170, 234);',
             }
             },
         }
@@ -43,8 +48,8 @@
     
 </head>
 <body class="font-manrope ">
-    <header class="w-full bg-gradient-to-t from-bg_clr to-stone-200">
-        <nav class="max-w-[335px] md:max-w-[1170px] mx-auto flex justify-between mb-14">
+    <header class="w-full bg-gradient-to-t from-bg_clr to-stone-200 mb-[100px]">
+        <nav class="pt-16 max-w-[335px] md:max-w-[1170px] mx-auto flex justify-between">
             <div class="flex gap-1 items-center">
                 <i class="fa-solid fa-arrow-trend-up bg-arrow_btn p-1 rounded-full"></i>
                 <h1 class="text-title_text text-xl font-bold tracking-tighter md:text-3xl">Rinterio</h1>
@@ -66,10 +71,134 @@
                 </div>
             </div>
         </nav>
-    </header>
 
-    <!-- hero section start -->
-     
+        <!-- hero section start -->
+        <div class="max-w-[335px] flex flex-col gap-6 md:max-w-[1170px] mx-auto">
+            <img src="./assets/banner.png" class="mx-auto" alt="">
+            <h1 class="text-[28px] mx-auto text-center font-extrabold lg:max-w-[1084px] lg:text-[64px] lg:leading-[80px]">A barn house of this design has a striking appearance</h1>
+            <p class="mx-auto text-center text-sm font-medium  lg:max-w-[950px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <div class="flex gap-2 bg-btn w-full lg:w-[206px] py-3 px-6 rounded-full justify-center mx-auto">
+                <h1 class="text-xl font-extrabold tracking-tighter">View Details</h1>
+                <i class="fa-solid fa-arrow-trend-up bg-arrow_btn p-1 rounded-full"></i>
+            </div>
+        </div>
+        
+    </header>
+    
+    <main >
+        <!-- services -->
+         <div class="bg-neutral-100 pt-24">
+            <div class="flex gap-9 mb-24 mx-auto justify-between flex-col max-w-[335px] lg:flex-row lg:max-w-[1170px]">
+                <div class="lg:max-w-[560px] flex flex-col gap-6 justify-end">
+                    <div class="flex px-4 font-extrabold py-2 bg-bg_clr w-[127px] rounded-full items-center gap-1 mx-auto lg:mx-0">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p class="text-[16px]">About Us</p>
+                    </div>
+                    <h1 class="text-2xl text-center lg:text-left lg:text-[40px] font-bold">We design thoughtful, liveable spaces</h1>
+                    <p class="text-sm text-center lg:text-left  font-medium lg:text-base">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="flex gap-3 bg-bg_clr p-6 rounded-2xl">
+                        <img src="./assets/commercial.png" class="h-[40px] w-[40px] lg:w-[64px] lg:h-[64px] lg:my-auto" alt="">
+                        <div class="flex flex-col gap-[10px]">
+                            <h1 class="text-sm font-extrabold lg:text-xl">Commercial</h1>
+                            <p class="text-xs font-medium lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit perfect elite person with perfect.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 bg-bg_clr p-6 rounded-2xl">
+                        <img src="./assets/residential.png" class="h-[40px] w-[40px] lg:w-[64px] lg:h-[64px] lg:my-auto" alt="">
+                        <div class="flex flex-col gap-3">
+                            <h1 class="text-sm font-extrabold lg:text-xl">Residential</h1>
+                            <p class="text-xs font-medium lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit perfect elite person with perfect.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/Rectangle.png" class="lg:max-w-[570px] lg:max-h-[515px]" alt="">
+            </div>
+
+            <div class="flex flex-col mx-auto bg-bg_clr p-6 gap-10 lg:p-8 rounded-3xl justify-between max-w-[335px] lg:max-w-[1170px] lg:flex-row">
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fa-regular fa-message text-4xl"></i>
+                    <h1 class="text-4xl font-extrabold">235+</h1>
+                    <p class="text-xs font-medium">Happy Client Review</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fa-regular fa-message text-4xl"></i>
+                    <h1 class="text-4xl font-extrabold">235+</h1>
+                    <p class="text-xs font-medium">Happy Client Review</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fa-regular fa-message text-4xl"></i>
+                    <h1 class="text-4xl font-extrabold">235+</h1>
+                    <p class="text-xs font-medium">Happy Client Review</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fa-regular fa-message text-4xl"></i>
+                    <h1 class="text-4xl font-extrabold">235+</h1>
+                    <p class="text-xs font-medium">Happy Client Review</p>
+                </div>
+            </div>
+
+            <!-- work process section -->
+             <div class="mx-auto mt-24 flex flex-col gap-8 max-w-[335px] lg:max-w-[1170px] pb-24">
+                <div class="flex flex-col items-center gap-6">
+                    <div class="flex px-4 py-2 bg-bg_clr w-[166px] rounded-full items-center gap-1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p class="text-[16px] font-extrabold">How we works</p>
+                    </div>
+                    <h1 class="text-2xl font-bold lg:text-[40px] lg:font-bold lg:w-[477px] text-center">Our Works Process</h1>
+                    <p class="text-sm lg:text-base font-medium text-center lg:max-w-[680px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam totam, molestiae provident odit iusto ullam tenetur suscipit harum aut eligendi.</p>
+                </div>
+                <div class="flex flex-col items-center gap-4 lg:flex-row justify-between">
+                    <div class="bg-concept_card flex flex-col gap-[10px] lg:w-[275px] rounded-2xl p-6">
+                        <img src="./assets/vision.png" class="h-12 w-12" alt="">
+                        <h1 class="text-xl font-extrabold">Concept</h1>
+                        <p class="text-base font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, voluptates.</p>
+                    </div>
+                    <div class="bg-design_card flex flex-col gap-[10px] lg:w-[275px] rounded-2xl p-6 ">
+                        <img src="./assets/vision.png" class="h-12 w-12" alt="">
+                        <h1 class="text-xl font-extrabold">Concept</h1>
+                        <p class="text-base font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, voluptates.</p>
+                    </div>
+                    <div class="bg-supervision_card flex flex-col gap-[10px] lg:w-[275px] rounded-2xl p-6">
+                        <img src="./assets/vision.png" class="h-12 w-12" alt="">
+                        <h1 class="text-xl font-extrabold">Concept</h1>
+                        <p class="text-base font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, voluptates.</p>
+                    </div>
+                    <div class="bg-budget_card flex flex-col gap-[10px] lg:w-[275px] rounded-2xl p-6">
+                        <img src="./assets/vision.png" class="h-12 w-12" alt="">
+                        <h1 class="text-xl font-extrabold">Concept</h1>
+                        <p class="text-base font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, voluptates.</p>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+         <div class="bg-bg_clr pt-24">
+            <div>
+                <div>
+
+                </div>
+                <div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+         </div>
+    </main>
+
+
+
     
 </body>
 </html>
