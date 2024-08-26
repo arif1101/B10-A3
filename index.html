@@ -28,7 +28,6 @@
         theme: {
             extend: {
             colors: {
-                clifford: '#da373d',
                 'btn-clr': '#FF4240',
                 'arrow_btn': 'rgb(171, 239, 95);',
                 'bg_clr': 'rgb(255, 255, 255);',
@@ -39,7 +38,11 @@
                 'design_card': 'rgb(239, 218, 110);',
                 'supervision_card': 'rgb(164, 218, 195)',
                 'budget_card': 'rgb(119, 170, 234);',
+                'text': 'rgb(115, 115, 115);',
             }
+            },
+            backgroundImage: {
+                'project': "url('./assets/bg.jpg')",
             },
         }
         }
@@ -174,28 +177,183 @@
              </div>
          </div>
 
-         <div class="bg-bg_clr pt-24">
-            <div>
-                <div>
-
-                </div>
-                <div>
-                    <div>
-
+         <!-- portfolio -->
+         <div class="bg-bg_clr pt-24 pb-24">
+            <div class="mx-auto max-w-[335px] lg:max-w-[1170px] flex flex-col gap-6">
+                <div class="flex flex-col lg:gap-6">
+                    <div class="flex mx-auto px-4 py-2 bg-btn w-[247px] font-bold rounded-full items-center gap-1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p class="text-[16px] font-extrabold">Explore our Latest works</p>
                     </div>
-                    <div>
-
+                    <h1 class="mx-auto md:max-w-[477px] md:text-[40px] md:font-bold">Our Latest Portfolio</h1>
+                    <p class="mx-auto text-center md:max-w-[677px] md:text-base font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <div class="lg:flex justify-between">
+                    <div class="flex flex-col lg:flex-row lg:max-w-[772px] p-6 border rounded-2xl gap-6">
+                        <img src="./assets/img1.png" class="lg:max-w-[260px] lg:max-h-[175px] my-auto" alt="">
+                        <div class="flex flex-col justify-between">
+                            <h1 class="lg:text-2xl lg:font-extrabold">Commercial</h1>
+                            <p class="lg:text-base lg:font-medium">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                            <div class="flex w-full gap-[10px] lg:w-[164px]  max-h-[32px] rounded-full justify-center">
+                                <h1 class="text-xl font-extrabold tracking-tighter">View Details</h1>
+                                <i class="fa-solid fa-arrow-trend-up w-8 h-8 bg-arrow_btn flex justify-center items-center rounded-full"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border rounded-2xl lg:max-w-[374px] lg:p-6">
+                        <img src="./assets/img2.png" alt="">
                     </div>
                 </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div class="flex justify-between">
+                    <div class="border rounded-2xl lg:max-w-[274px] lg:p-6">
+                        <img src="./assets/img3.png" alt="">
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row lg:max-w-[573px] p-6 border rounded-2xl gap-6">
+                        <img src="./assets/img4.png" class="lg:max-w-[260px] lg:max-h-[175px] my-auto" alt="">
+                        <div class="flex flex-col justify-between">
+                            <h1 class="lg:text-2xl lg:font-extrabold">Commercial</h1>
+                            <p class="lg:text-base lg:font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <div class="flex w-full gap-[10px] lg:w-[164px]  max-h-[32px] rounded-full justify-center">
+                                <h1 class="text-xl font-extrabold tracking-tighter">View Details</h1>
+                                <i class="fa-solid fa-arrow-trend-up w-8 h-8 bg-arrow_btn flex justify-center items-center rounded-full"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="border rounded-2xl lg:p-6 lg:max-w-[274px]">
+                        <img src="./assets/img5.png" alt="">
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- article section -->
+          <div class="bg-neutral-100 pt-24 pb-24">
+            <div class="mx-auto max-w-[335px] lg:max-w-[1170px] flex flex-col gap-8">
+                <div class="flex flex-col items-center gap-4">
+                    <div class="flex mx-auto px-4 py-2 bg-btn max-w-[165px] font-bold rounded-full items-center gap-1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p class="text-[16px] font-extrabold">Rinterio News</p>
+                    </div>
+                    <h1 class="lg:text-[40px] font-extrabold lg:max-w-[546px]">Read Our Articles and News</h1>
+                    <p class="max-w-[678px] text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <div class="flex flex-col justify-between lg:flex-row">
+                    <div class="border flex flex-col justify-between p-6 lg:max-w-[374px] lg:h-[440px] rounded-2xl">
+                        <img src="./assets/article1.png" alt="">
+                        <div class="flex gap-2">
+                            <div class="flex items-center gap-1 text-sm font-medium">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p>July14, 2024</p>
+                            </div>
+                            <div class="flex items-center gap-1 text-sm font-medium">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <p>By Admin</p>
+                            </div>
+                        </div>
+                        <h1 class="text-xl font-extrabold">How to choose the furniture right of Your home.</h1>
+                        <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern</p>
+                        <div class=" flex w-full gap-2 lg:w-[164px]  max-h-[32px] rounded-full">
+                            <h1 class="text-lg font-bold tracking-tighter">Read More</h1>
+                            <i class="fa-solid fa-arrow-trend-up w-8 h-8 bg-arrow_btn flex justify-center items-center rounded-full"></i>
+                        </div>
+                    </div>
+                    <div class="border flex flex-col justify-between p-6 lg:max-w-[374px] lg:h-[440px] rounded-2xl">
+                        <img src="./assets/article2.png" alt="">
+                        <div class="flex gap-2">
+                            <div class="flex items-center gap-1 text-sm font-medium">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p>July14, 2024</p>
+                            </div>
+                            <div class="flex items-center gap-1 text-sm font-medium">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <p>By Admin</p>
+                            </div>
+                        </div>
+                        <h1 class="text-xl font-extrabold">How to choose the furniture right of Your home.</h1>
+                        <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern</p>
+                        <div class=" flex w-full gap-2 lg:w-[164px]  max-h-[32px] rounded-full">
+                            <h1 class="text-lg font-bold tracking-tighter">Read More</h1>
+                            <i class="fa-solid fa-arrow-trend-up w-8 h-8 bg-arrow_btn flex justify-center items-center rounded-full"></i>
+                        </div>
+                    </div>
+                    <div class="border flex flex-col justify-between p-6 lg:max-w-[374px] lg:h-[440px] rounded-2xl">
+                        <img src="./assets/article3.png" alt="">
+                        <div class="flex gap-2">
+                            <div class="flex items-center gap-1 text-sm font-medium">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p>July14, 2024</p>
+                            </div>
+                            <div class="flex items-center gap-1 text-sm font-medium">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <p>By Admin</p>
+                            </div>
+                        </div>
+                        <h1 class="text-xl font-extrabold">How to choose the furniture right of Your home.</h1>
+                        <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern</p>
+                        <div class=" flex w-full gap-2 lg:w-[164px]  max-h-[32px] rounded-full">
+                            <h1 class="text-lg font-bold tracking-tighter">Read More</h1>
+                            <i class="fa-solid fa-arrow-trend-up w-8 h-8 bg-arrow_btn flex justify-center items-center rounded-full"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-         </div>
+          </div>
+
+          <!-- next project section -->
+           <div class=""></div>
+
+           <div class="">
+            <div class="bg-project pt-24 pb-24 bg-no-repeat bg-cover">
+                <div class="lg:max-w-[970px] mx-auto flex lg:flex-col gap-6">
+                    <div class="flex lg:flex-col gap-6">
+                        <div class="flex mx-auto px-4 py-2 bg-btn max-w-[165px] font-bold rounded-full items-center gap-1">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p class="text-[16px] font-extrabold">Let's Connect</p>
+                        </div>
+                        <h1 class="border mx-auto lg:max-w-[520px] lg:text-[40px] font-extrabold">Let's Discuss NExt Project</h1>
+                        <p class="lg:max-w-[679px] lg:text-base lg:font-medium mx-auto text-center
+                        ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    </div>
+                    <div class="flex lg:flex-col gap-6">
+                        <div class="flex lg:flex-row justify-between">
+                            <input type="text" placeholder="First Name*" class="rounded-full lg:w-[473px] px-5 py-4">
+                            <input type="text" placeholder="Last Name*" class="rounded-full lg:w-[473px] px-5 py-4">
+                        </div>
+                        <div class="flex lg:flex-row justify-between">
+                            <input type="text" placeholder="Last Name*" class="rounded-full lg:w-[473px] px-5 py-4">
+                            <input type="text" placeholder="Phone Number*" class="rounded-full lg:w-[473px] px-5 py-4">
+                        </div>
+                        <input type="text" placeholder="Write your message here" class="rounded-[32px] w-full px-5 py-4  lg:h-[240px]">
+                    </div>
+                    <div class="flex gap-2 bg-arrow_btn w-full py-3 px-6 rounded-full justify-center mx-auto">
+                        <h1 class="text-xl font-extrabold tracking-tighter">Send Mail</h1>
+                        <i class="fa-solid fa-arrow-trend-up bg-black p-1 rounded-full text-white"></i>
+                    </div>
+                </div>
+           </div>
     </main>
+
+    <footer class="bg-black py-24 flex flex-col gap-12">
+        <div class="flex gap-2 w-[163px] py-3 px-6 rounded-full justify-center mx-auto">
+            <i class="fa-solid fa-arrow-trend-up bg-arrow_btn p-1 rounded-full text-black"></i>
+            <h1 class="text-xl font-extrabold tracking-tighter text-white">Rinterio</h1>
+        </div>
+        <p class="text-base font-medium text-text text-center lg:max-w-[678px] mx-auto -mt-9">he barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <div class="lg:w-[778px] mx-auto flex justify-between">
+            <p class="text-base font-medium text-text ">Home</p>
+            <p class="text-base font-medium text-text">Sevices</p>
+            <p class="text-base font-medium text-text">Portfolio</p>
+            <p class="text-base font-medium text-text">Blogs</p>
+            <p class="text-base font-medium text-text">Contact Us</p>
+        </div>
+        <div class="flex gap-2 bg-arrow_btn lg:max-w-[211px] py-3 px-6 rounded-full justify-center mx-auto">
+            <h1 class="text-xl font-extrabold tracking-tighter">Send Mail</h1>
+            <i class="fa-solid fa-arrow-trend-up bg-black p-1 rounded-full text-white"></i>
+        </div>
+    </footer>
 
 
 
